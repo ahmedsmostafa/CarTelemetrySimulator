@@ -8,6 +8,53 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TextBlock HorizontalAlignment="Left" Text="Microsoft.ServiceBus.ConnectionString" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="ServiceBusConnectionStringTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="inputeventhub" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="inputeventhubTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="inputservicebus" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="inputservicebusTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="servicebusconnectionstring" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="servicebusconnectionstringTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="HighSpeedProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="HighSpeedProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="LowSpeedProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="LowSpeedProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="HighOilProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="HighOilProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="LowOilProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="LowOilProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="HighTyrePressureProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="HighTyrePressureProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="LowTyrePressureProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="LowTyrePressureProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="HighOutsideTempProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="HighOutsideTempProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="LowOutsideTempProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="LowOutsideTempProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="HighEngineTempProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="HighEngineTempProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+
+            <TextBlock HorizontalAlignment="Left" Text="LowEngineTempProbabilityPower" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <TextBox x:Name="LowEngineTempProbabilityPowerTextBox" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" />
+            
+            <Button x:Name="Simulate" Content="Simulate" Click="Simulate_Click"/>
+            <Button x:Name="Stop" Content="Stop" Click="Stop_Click"/>
+        </StackPanel>
+
 
     </Grid>
 </Page>
